@@ -1,3 +1,4 @@
+{
   "users": [
     {
       "user_id": "user_001",
@@ -72,7 +73,7 @@
         "acidity": 4.2,
         "body": 2.7,
         "sweetness": 3.5,
-        "bitterness": 1.0
+        "bitterness": 1
       },
       "flavor_profile": {
         "categories": [
@@ -211,7 +212,7 @@
       "processing": "Natural",
       "roast_level": "Medium",
       "taste_profile": {
-        "acidity": 2.0,
+        "acidity": 2,
         "body": 3.8,
         "sweetness": 3.2,
         "bitterness": 2.5
@@ -271,7 +272,7 @@
       "roast_level": "Light-Medium",
       "taste_profile": {
         "acidity": 4.6,
-        "body": 3.0,
+        "body": 3,
         "sweetness": 2.9,
         "bitterness": 1.6
       },
@@ -459,7 +460,7 @@
         "acidity": 1.5,
         "body": 4.5,
         "sweetness": 3.8,
-        "bitterness": 3.0
+        "bitterness": 3
       },
       "flavor_profile": {
         "categories": [
@@ -596,8 +597,8 @@
       "processing": "Honey",
       "roast_level": "Light",
       "taste_profile": {
-        "acidity": 4.0,
-        "body": 3.0,
+        "acidity": 4,
+        "body": 3,
         "sweetness": 3.6,
         "bitterness": 1.4
       },
@@ -732,218 +733,218 @@
   "match_results": {
     "user_001": [
       {
-        "coffee_id": "coffee_001",
-        "coffee_name": "Colombia Pink Bourbon",
-        "taste_match_ratio": 1.0,
-        "flavor_match_ratio": 1.0,
-        "total_score": 1.0
+        "coffee_id": "coffee_002",
+        "coffee_name": "Ethiopia Yirgacheffe",
+        "taste_match_ratio": 0.8875,
+        "flavor_match_ratio": 1,
+        "total_score": 0.9325
       },
       {
         "coffee_id": "coffee_004",
         "coffee_name": "Kenya AA",
-        "taste_match_ratio": 1.0,
-        "flavor_match_ratio": 0.67,
-        "total_score": 0.8667
-      },
-      {
-        "coffee_id": "coffee_006",
-        "coffee_name": "Ethiopia Gesha Natural",
-        "taste_match_ratio": 1.0,
-        "flavor_match_ratio": 0.67,
-        "total_score": 0.8667
+        "taste_match_ratio": 0.9813,
+        "flavor_match_ratio": 0.75,
+        "total_score": 0.8888
       },
       {
         "coffee_id": "coffee_009",
         "coffee_name": "Rwanda Bourbon Honey",
-        "taste_match_ratio": 1.0,
-        "flavor_match_ratio": 0.67,
-        "total_score": 0.8667
+        "taste_match_ratio": 0.925,
+        "flavor_match_ratio": 0.75,
+        "total_score": 0.855
       },
       {
         "coffee_id": "coffee_010",
         "coffee_name": "Ethiopia Anaerobic Natural",
-        "taste_match_ratio": 1.0,
-        "flavor_match_ratio": 0.67,
-        "total_score": 0.8667
+        "taste_match_ratio": 0.925,
+        "flavor_match_ratio": 0.75,
+        "total_score": 0.855
       },
       {
-        "coffee_id": "coffee_002",
-        "coffee_name": "Ethiopia Yirgacheffe",
-        "taste_match_ratio": 0.75,
-        "flavor_match_ratio": 1.0,
-        "total_score": 0.85
+        "coffee_id": "coffee_001",
+        "coffee_name": "Colombia Pink Bourbon",
+        "taste_match_ratio": 0.9,
+        "flavor_match_ratio": 0.75,
+        "total_score": 0.84
       },
       {
-        "coffee_id": "coffee_005",
-        "coffee_name": "Guatemala Antigua",
-        "taste_match_ratio": 1.0,
-        "flavor_match_ratio": 0.33,
-        "total_score": 0.7333
+        "coffee_id": "coffee_006",
+        "coffee_name": "Ethiopia Gesha Natural",
+        "taste_match_ratio": 0.8562,
+        "flavor_match_ratio": 0.75,
+        "total_score": 0.8137
       },
       {
         "coffee_id": "coffee_008",
         "coffee_name": "Costa Rica Honey",
-        "taste_match_ratio": 0.75,
-        "flavor_match_ratio": 0.67,
-        "total_score": 0.7167
+        "taste_match_ratio": 0.8125,
+        "flavor_match_ratio": 0.75,
+        "total_score": 0.7875
+      },
+      {
+        "coffee_id": "coffee_005",
+        "coffee_name": "Guatemala Antigua",
+        "taste_match_ratio": 0.85,
+        "flavor_match_ratio": 0.25,
+        "total_score": 0.61
       },
       {
         "coffee_id": "coffee_003",
         "coffee_name": "Brazil Natural",
-        "taste_match_ratio": 0.5,
-        "flavor_match_ratio": 0.33,
-        "total_score": 0.4333
+        "taste_match_ratio": 0.7188,
+        "flavor_match_ratio": 0.25,
+        "total_score": 0.5313
       },
       {
         "coffee_id": "coffee_007",
         "coffee_name": "Sumatra Mandheling",
-        "taste_match_ratio": 0.25,
-        "flavor_match_ratio": 0.33,
-        "total_score": 0.2833
+        "taste_match_ratio": 0.575,
+        "flavor_match_ratio": 0.25,
+        "total_score": 0.445
       }
     ],
     "user_002": [
       {
-        "coffee_id": "coffee_003",
-        "coffee_name": "Brazil Natural",
-        "taste_match_ratio": 1.0,
-        "flavor_match_ratio": 1.0,
-        "total_score": 1.0
-      },
-      {
         "coffee_id": "coffee_007",
         "coffee_name": "Sumatra Mandheling",
-        "taste_match_ratio": 0.75,
-        "flavor_match_ratio": 1.0,
-        "total_score": 0.85
+        "taste_match_ratio": 0.8625,
+        "flavor_match_ratio": 1,
+        "total_score": 0.9175
+      },
+      {
+        "coffee_id": "coffee_003",
+        "coffee_name": "Brazil Natural",
+        "taste_match_ratio": 0.7813,
+        "flavor_match_ratio": 1,
+        "total_score": 0.8688
       },
       {
         "coffee_id": "coffee_005",
         "coffee_name": "Guatemala Antigua",
-        "taste_match_ratio": 0.75,
+        "taste_match_ratio": 0.775,
         "flavor_match_ratio": 0.5,
-        "total_score": 0.65
-      },
-      {
-        "coffee_id": "coffee_001",
-        "coffee_name": "Colombia Pink Bourbon",
-        "taste_match_ratio": 0.25,
-        "flavor_match_ratio": 1.0,
-        "total_score": 0.55
-      },
-      {
-        "coffee_id": "coffee_008",
-        "coffee_name": "Costa Rica Honey",
-        "taste_match_ratio": 0.75,
-        "flavor_match_ratio": 0.0,
-        "total_score": 0.45
-      },
-      {
-        "coffee_id": "coffee_009",
-        "coffee_name": "Rwanda Bourbon Honey",
-        "taste_match_ratio": 0.75,
-        "flavor_match_ratio": 0.0,
-        "total_score": 0.45
-      },
-      {
-        "coffee_id": "coffee_004",
-        "coffee_name": "Kenya AA",
-        "taste_match_ratio": 0.25,
-        "flavor_match_ratio": 0.5,
-        "total_score": 0.35
+        "total_score": 0.665
       },
       {
         "coffee_id": "coffee_010",
         "coffee_name": "Ethiopia Anaerobic Natural",
-        "taste_match_ratio": 0.25,
+        "taste_match_ratio": 0.65,
         "flavor_match_ratio": 0.5,
-        "total_score": 0.35
+        "total_score": 0.59
+      },
+      {
+        "coffee_id": "coffee_001",
+        "coffee_name": "Colombia Pink Bourbon",
+        "taste_match_ratio": 0.625,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.575
+      },
+      {
+        "coffee_id": "coffee_004",
+        "coffee_name": "Kenya AA",
+        "taste_match_ratio": 0.6188,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.5713
+      },
+      {
+        "coffee_id": "coffee_008",
+        "coffee_name": "Costa Rica Honey",
+        "taste_match_ratio": 0.7625,
+        "flavor_match_ratio": 0,
+        "total_score": 0.4575
+      },
+      {
+        "coffee_id": "coffee_009",
+        "coffee_name": "Rwanda Bourbon Honey",
+        "taste_match_ratio": 0.6875,
+        "flavor_match_ratio": 0,
+        "total_score": 0.4125
       },
       {
         "coffee_id": "coffee_002",
         "coffee_name": "Ethiopia Yirgacheffe",
-        "taste_match_ratio": 0.0,
-        "flavor_match_ratio": 0.5,
-        "total_score": 0.2
+        "taste_match_ratio": 0.5125,
+        "flavor_match_ratio": 0.25,
+        "total_score": 0.4075
       },
       {
         "coffee_id": "coffee_006",
         "coffee_name": "Ethiopia Gesha Natural",
-        "taste_match_ratio": 0.25,
-        "flavor_match_ratio": 0.0,
-        "total_score": 0.15
+        "taste_match_ratio": 0.5938,
+        "flavor_match_ratio": 0,
+        "total_score": 0.3563
       }
     ],
     "user_003": [
       {
-        "coffee_id": "coffee_003",
-        "coffee_name": "Brazil Natural",
-        "taste_match_ratio": 1.0,
-        "flavor_match_ratio": 0.5,
-        "total_score": 0.8
-      },
-      {
         "coffee_id": "coffee_007",
         "coffee_name": "Sumatra Mandheling",
-        "taste_match_ratio": 1.0,
+        "taste_match_ratio": 0.95,
         "flavor_match_ratio": 0.5,
-        "total_score": 0.8
+        "total_score": 0.77
       },
       {
-        "coffee_id": "coffee_001",
-        "coffee_name": "Colombia Pink Bourbon",
-        "taste_match_ratio": 0.25,
-        "flavor_match_ratio": 1.0,
-        "total_score": 0.55
-      },
-      {
-        "coffee_id": "coffee_004",
-        "coffee_name": "Kenya AA",
-        "taste_match_ratio": 0.5,
+        "coffee_id": "coffee_003",
+        "coffee_name": "Brazil Natural",
+        "taste_match_ratio": 0.8812,
         "flavor_match_ratio": 0.5,
-        "total_score": 0.5
+        "total_score": 0.7288
       },
       {
         "coffee_id": "coffee_005",
         "coffee_name": "Guatemala Antigua",
-        "taste_match_ratio": 0.5,
+        "taste_match_ratio": 0.675,
         "flavor_match_ratio": 0.5,
-        "total_score": 0.5
+        "total_score": 0.605
       },
       {
-        "coffee_id": "coffee_009",
-        "coffee_name": "Rwanda Bourbon Honey",
-        "taste_match_ratio": 0.5,
+        "coffee_id": "coffee_004",
+        "coffee_name": "Kenya AA",
+        "taste_match_ratio": 0.6188,
         "flavor_match_ratio": 0.5,
-        "total_score": 0.5
-      },
-      {
-        "coffee_id": "coffee_002",
-        "coffee_name": "Ethiopia Yirgacheffe",
-        "taste_match_ratio": 0.25,
-        "flavor_match_ratio": 0.5,
-        "total_score": 0.35
-      },
-      {
-        "coffee_id": "coffee_006",
-        "coffee_name": "Ethiopia Gesha Natural",
-        "taste_match_ratio": 0.25,
-        "flavor_match_ratio": 0.5,
-        "total_score": 0.35
+        "total_score": 0.5713
       },
       {
         "coffee_id": "coffee_008",
         "coffee_name": "Costa Rica Honey",
-        "taste_match_ratio": 0.25,
+        "taste_match_ratio": 0.6125,
         "flavor_match_ratio": 0.5,
-        "total_score": 0.35
+        "total_score": 0.5675
+      },
+      {
+        "coffee_id": "coffee_009",
+        "coffee_name": "Rwanda Bourbon Honey",
+        "taste_match_ratio": 0.6125,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.5675
+      },
+      {
+        "coffee_id": "coffee_001",
+        "coffee_name": "Colombia Pink Bourbon",
+        "taste_match_ratio": 0.5625,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.5375
       },
       {
         "coffee_id": "coffee_010",
         "coffee_name": "Ethiopia Anaerobic Natural",
-        "taste_match_ratio": 0.25,
+        "taste_match_ratio": 0.55,
         "flavor_match_ratio": 0.5,
-        "total_score": 0.35
+        "total_score": 0.53
+      },
+      {
+        "coffee_id": "coffee_006",
+        "coffee_name": "Ethiopia Gesha Natural",
+        "taste_match_ratio": 0.4813,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.4888
+      },
+      {
+        "coffee_id": "coffee_002",
+        "coffee_name": "Ethiopia Yirgacheffe",
+        "taste_match_ratio": 0.5125,
+        "flavor_match_ratio": 0.25,
+        "total_score": 0.4075
       }
     ]
   }
