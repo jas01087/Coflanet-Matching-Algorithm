@@ -1,0 +1,950 @@
+  "users": [
+    {
+      "user_id": "user_001",
+      "submitted_at": "2025-08-07T14:00:00+09:00",
+      "experience": {
+        "machine": "드립 (V60)",
+        "level": "중급"
+      },
+      "taste_preference": {
+        "acidity": "high",
+        "body": "mid",
+        "sweetness": "mid",
+        "bitterness": "low"
+      },
+      "flavor_preference": {
+        "fruity": true,
+        "floral": true,
+        "nutty_cocoa": false,
+        "roasted": true
+      }
+    },
+    {
+      "user_id": "user_002",
+      "submitted_at": "2025-08-07T15:00:00+09:00",
+      "experience": {
+        "machine": "에스프레소 머신",
+        "level": "고급"
+      },
+      "taste_preference": {
+        "acidity": "mid",
+        "body": "high",
+        "sweetness": "high",
+        "bitterness": "mid"
+      },
+      "flavor_preference": {
+        "fruity": false,
+        "floral": false,
+        "nutty_cocoa": true,
+        "roasted": true
+      }
+    },
+    {
+      "user_id": "user_003",
+      "submitted_at": "2025-08-07T16:00:00+09:00",
+      "experience": {
+        "machine": "프렌치프레스",
+        "level": "초급"
+      },
+      "taste_preference": {
+        "acidity": "low",
+        "body": "high",
+        "sweetness": "mid",
+        "bitterness": "mid"
+      },
+      "flavor_preference": {
+        "fruity": true,
+        "floral": false,
+        "nutty_cocoa": true,
+        "roasted": false
+      }
+    }
+  ],
+  "coffees": [
+    {
+      "id": "coffee_001",
+      "name": "Colombia Pink Bourbon",
+      "origin": "Colombia",
+      "variety": "Pink Bourbon",
+      "processing": "Washed",
+      "roast_level": "Light",
+      "taste_profile": {
+        "acidity": 4.2,
+        "body": 2.7,
+        "sweetness": 3.5,
+        "bitterness": 1.0
+      },
+      "flavor_profile": {
+        "categories": [
+          "Fruity",
+          "Floral",
+          "Sweet",
+          "Nutty/Cocoa",
+          "Roasted"
+        ],
+        "descriptors": [
+          {
+            "category": "Fruity",
+            "subCategory": "Stone Fruit",
+            "descriptor": "Peach"
+          },
+          {
+            "category": "Fruity",
+            "subCategory": "Citrus Fruit",
+            "descriptor": "Mandarin Orange"
+          },
+          {
+            "category": "Floral",
+            "subCategory": "White Flower",
+            "descriptor": "Jasmine"
+          },
+          {
+            "category": "Sweet",
+            "subCategory": "Caramelized Sugar",
+            "descriptor": "Honey"
+          },
+          {
+            "category": "Nutty/Cocoa",
+            "subCategory": "Chocolate",
+            "descriptor": "Milk Chocolate"
+          },
+          {
+            "category": "Roasted",
+            "subCategory": "Brown Roast",
+            "descriptor": "Light Toast"
+          }
+        ]
+      },
+      "description": "잘 익은 복숭아와 자스민 향이 어우러진 콜롬비아 핑크 버번. 세척식 가공으로 깨끗하고 달콤한 여운이 특징입니다.",
+      "image_url": "https://dummy.coflanet.com/images/coffee_001.jpg",
+      "weight_options": [
+        {
+          "weight": "100g",
+          "price": 12000
+        },
+        {
+          "weight": "200g",
+          "price": 22000
+        },
+        {
+          "weight": "500g",
+          "price": 49000
+        }
+      ],
+      "shipping": {
+        "method": "택배",
+        "fee": 3000,
+        "free_shipping_over": 30000
+      },
+      "is_available": true
+    },
+    {
+      "id": "coffee_002",
+      "name": "Ethiopia Yirgacheffe",
+      "origin": "Ethiopia",
+      "variety": "Heirloom",
+      "processing": "Washed",
+      "roast_level": "Light",
+      "taste_profile": {
+        "acidity": 4.8,
+        "body": 1.9,
+        "sweetness": 2.8,
+        "bitterness": 1.3
+      },
+      "flavor_profile": {
+        "categories": [
+          "Fruity",
+          "Floral",
+          "Roasted"
+        ],
+        "descriptors": [
+          {
+            "category": "Fruity",
+            "subCategory": "Citrus Fruit",
+            "descriptor": "Lime"
+          },
+          {
+            "category": "Floral",
+            "subCategory": "Other",
+            "descriptor": "Bergamot"
+          },
+          {
+            "category": "Floral",
+            "subCategory": "Herbal Flower",
+            "descriptor": "Chamomile"
+          },
+          {
+            "category": "Roasted",
+            "subCategory": "Dry Distillation",
+            "descriptor": "Black Tea"
+          }
+        ]
+      },
+      "description": "화사한 라임과 캐모마일 향이 느껴지는 에티오피아 예가체프. 홍차처럼 깔끔하고 은은한 여운을 남깁니다.",
+      "image_url": "https://dummy.coflanet.com/images/coffee_002.jpg",
+      "weight_options": [
+        {
+          "weight": "100g",
+          "price": 13000
+        },
+        {
+          "weight": "200g",
+          "price": 24000
+        },
+        {
+          "weight": "500g",
+          "price": 51000
+        }
+      ],
+      "shipping": {
+        "method": "택배",
+        "fee": 3000,
+        "free_shipping_over": 30000
+      },
+      "is_available": true
+    },
+    {
+      "id": "coffee_003",
+      "name": "Brazil Natural",
+      "origin": "Brazil",
+      "variety": "Bourbon",
+      "processing": "Natural",
+      "roast_level": "Medium",
+      "taste_profile": {
+        "acidity": 2.0,
+        "body": 3.8,
+        "sweetness": 3.2,
+        "bitterness": 2.5
+      },
+      "flavor_profile": {
+        "categories": [
+          "Nutty/Cocoa",
+          "Roasted"
+        ],
+        "descriptors": [
+          {
+            "category": "Nutty/Cocoa",
+            "subCategory": "Nutty",
+            "descriptor": "Hazelnut"
+          },
+          {
+            "category": "Nutty/Cocoa",
+            "subCategory": "Chocolate",
+            "descriptor": "Dark Chocolate"
+          },
+          {
+            "category": "Roasted",
+            "subCategory": "Brown Roast",
+            "descriptor": "Roasted Nuts"
+          }
+        ]
+      },
+      "description": "고소한 헤이즐넛과 다크 초콜릿의 깊은 풍미가 인상적인 브라질 내추럴. 균형 잡힌 바디와 단맛이 매력입니다.",
+      "image_url": "https://dummy.coflanet.com/images/coffee_003.jpg",
+      "weight_options": [
+        {
+          "weight": "100g",
+          "price": 10000
+        },
+        {
+          "weight": "200g",
+          "price": 18000
+        },
+        {
+          "weight": "500g",
+          "price": 42000
+        }
+      ],
+      "shipping": {
+        "method": "택배",
+        "fee": 3000,
+        "free_shipping_over": 25000
+      },
+      "is_available": true
+    },
+    {
+      "id": "coffee_004",
+      "name": "Kenya AA",
+      "origin": "Kenya",
+      "variety": "SL28 / SL34",
+      "processing": "Washed",
+      "roast_level": "Light-Medium",
+      "taste_profile": {
+        "acidity": 4.6,
+        "body": 3.0,
+        "sweetness": 2.9,
+        "bitterness": 1.6
+      },
+      "flavor_profile": {
+        "categories": [
+          "Fruity",
+          "Roasted"
+        ],
+        "descriptors": [
+          {
+            "category": "Fruity",
+            "subCategory": "Berry",
+            "descriptor": "Blackcurrant"
+          },
+          {
+            "category": "Fruity",
+            "subCategory": "Tropical Fruit",
+            "descriptor": "Pineapple"
+          },
+          {
+            "category": "Roasted",
+            "subCategory": "Brown Roast",
+            "descriptor": "Toast"
+          }
+        ]
+      },
+      "description": "블랙커런트와 파인애플의 과즙미가 특징인 케냐 AA. 명료한 산미와 달큰한 여운이 돋보입니다.",
+      "image_url": "https://dummy.coflanet.com/images/coffee_004.jpg",
+      "weight_options": [
+        {
+          "weight": "100g",
+          "price": 14000
+        },
+        {
+          "weight": "200g",
+          "price": 26000
+        }
+      ],
+      "shipping": {
+        "method": "택배",
+        "fee": 3000,
+        "free_shipping_over": 30000
+      },
+      "is_available": true
+    },
+    {
+      "id": "coffee_005",
+      "name": "Guatemala Antigua",
+      "origin": "Guatemala",
+      "variety": "Caturra / Bourbon",
+      "processing": "Washed",
+      "roast_level": "Medium",
+      "taste_profile": {
+        "acidity": 3.5,
+        "body": 3.3,
+        "sweetness": 3.8,
+        "bitterness": 1.8
+      },
+      "flavor_profile": {
+        "categories": [
+          "Nutty/Cocoa",
+          "Floral"
+        ],
+        "descriptors": [
+          {
+            "category": "Nutty/Cocoa",
+            "subCategory": "Nutty",
+            "descriptor": "Almond"
+          },
+          {
+            "category": "Floral",
+            "subCategory": "Dried Flower",
+            "descriptor": "Lavender"
+          },
+          {
+            "category": "Sweet",
+            "subCategory": "Brown Sugar",
+            "descriptor": "Brown Sugar"
+          }
+        ]
+      },
+      "description": "라벤더 향과 고소한 아몬드가 어우러진 과테말라 안티구아. 단맛과 바디감의 밸런스가 우수합니다.",
+      "image_url": "https://dummy.coflanet.com/images/coffee_005.jpg",
+      "weight_options": [
+        {
+          "weight": "100g",
+          "price": 11500
+        },
+        {
+          "weight": "200g",
+          "price": 21000
+        }
+      ],
+      "shipping": {
+        "method": "택배",
+        "fee": 3000,
+        "free_shipping_over": 30000
+      },
+      "is_available": true
+    },
+    {
+      "id": "coffee_006",
+      "name": "Ethiopia Gesha Natural",
+      "origin": "Ethiopia",
+      "variety": "Gesha",
+      "processing": "Natural",
+      "roast_level": "Light",
+      "taste_profile": {
+        "acidity": 4.7,
+        "body": 2.5,
+        "sweetness": 3.9,
+        "bitterness": 0.8
+      },
+      "flavor_profile": {
+        "categories": [
+          "Fruity",
+          "Floral",
+          "Fermented",
+          "Sweet"
+        ],
+        "descriptors": [
+          {
+            "category": "Fruity",
+            "subCategory": "Berry",
+            "descriptor": "Blueberry"
+          },
+          {
+            "category": "Floral",
+            "subCategory": "White Flower",
+            "descriptor": "Jasmine"
+          },
+          {
+            "category": "Fermented",
+            "subCategory": "Winey",
+            "descriptor": "Winey"
+          },
+          {
+            "category": "Sweet",
+            "subCategory": "Honey",
+            "descriptor": "Honey"
+          },
+          {
+            "category": "Fruity",
+            "subCategory": "Tropical Fruit",
+            "descriptor": "Passion Fruit"
+          },
+          {
+            "category": "Roasted",
+            "subCategory": "Brown Roast",
+            "descriptor": "Toast"
+          }
+        ]
+      },
+      "description": "블루베리와 재스민 향이 특징인 에티오피아 게이샤 내추럴. 달콤한 허니 향과 와이니한 뉘앙스가 매력입니다.",
+      "image_url": "https://dummy.coflanet.com/images/coffee_006.jpg",
+      "weight_options": [
+        {
+          "weight": "100g",
+          "price": 15000
+        },
+        {
+          "weight": "200g",
+          "price": 28000
+        },
+        {
+          "weight": "500g",
+          "price": 60000
+        }
+      ],
+      "shipping": {
+        "method": "택배",
+        "fee": 3000,
+        "free_shipping_over": 30000
+      },
+      "is_available": true
+    },
+    {
+      "id": "coffee_007",
+      "name": "Sumatra Mandheling",
+      "origin": "Indonesia",
+      "variety": "Typica",
+      "processing": "Wet-Hulled",
+      "roast_level": "Dark",
+      "taste_profile": {
+        "acidity": 1.5,
+        "body": 4.5,
+        "sweetness": 3.8,
+        "bitterness": 3.0
+      },
+      "flavor_profile": {
+        "categories": [
+          "Nutty/Cocoa",
+          "Roasted",
+          "Fermented"
+        ],
+        "descriptors": [
+          {
+            "category": "Nutty/Cocoa",
+            "subCategory": "Nutty",
+            "descriptor": "Walnut"
+          },
+          {
+            "category": "Roasted",
+            "subCategory": "Brown Roast",
+            "descriptor": "Dark Roast"
+          },
+          {
+            "category": "Fermented",
+            "subCategory": "Other",
+            "descriptor": "Tobacco"
+          },
+          {
+            "category": "Nutty/Cocoa",
+            "subCategory": "Cocoa",
+            "descriptor": "Cacao Nibs"
+          },
+          {
+            "category": "Roasted",
+            "subCategory": "Dry Distillation",
+            "descriptor": "Smoky"
+          }
+        ]
+      },
+      "description": "진한 바디와 다크 초콜릿, 호두 향미를 느낄 수 있는 수마트라 만델링. 독특한 웻헐드 가공으로 풍성한 질감이 돋보입니다.",
+      "image_url": "https://dummy.coflanet.com/images/coffee_007.jpg",
+      "weight_options": [
+        {
+          "weight": "100g",
+          "price": 11000
+        },
+        {
+          "weight": "200g",
+          "price": 20000
+        },
+        {
+          "weight": "500g",
+          "price": 47000
+        }
+      ],
+      "shipping": {
+        "method": "택배",
+        "fee": 3000,
+        "free_shipping_over": 25000
+      },
+      "is_available": true
+    },
+    {
+      "id": "coffee_008",
+      "name": "Costa Rica Honey",
+      "origin": "Costa Rica",
+      "variety": "Caturra",
+      "processing": "Honey",
+      "roast_level": "Light-Medium",
+      "taste_profile": {
+        "acidity": 3.3,
+        "body": 3.2,
+        "sweetness": 4.2,
+        "bitterness": 1.1
+      },
+      "flavor_profile": {
+        "categories": [
+          "Fruity",
+          "Sweet",
+          "Floral"
+        ],
+        "descriptors": [
+          {
+            "category": "Fruity",
+            "subCategory": "Pome Fruit",
+            "descriptor": "Red Apple"
+          },
+          {
+            "category": "Sweet",
+            "subCategory": "Honey",
+            "descriptor": "Honey"
+          },
+          {
+            "category": "Floral",
+            "subCategory": "Other",
+            "descriptor": "Orange Blossom"
+          },
+          {
+            "category": "Sweet",
+            "subCategory": "Brown Sugar",
+            "descriptor": "Caramel"
+          },
+          {
+            "category": "Fruity",
+            "subCategory": "Dried Fruit",
+            "descriptor": "Raisin"
+          }
+        ]
+      },
+      "description": "달콤한 허니 프로세스가 주는 사과와 캐러멜의 향미가 돋보이는 코스타리카 허니 커피.",
+      "image_url": "https://dummy.coflanet.com/images/coffee_008.jpg",
+      "weight_options": [
+        {
+          "weight": "100g",
+          "price": 12500
+        },
+        {
+          "weight": "200g",
+          "price": 23500
+        },
+        {
+          "weight": "500g",
+          "price": 52000
+        }
+      ],
+      "shipping": {
+        "method": "택배",
+        "fee": 3000,
+        "free_shipping_over": 30000
+      },
+      "is_available": true
+    },
+    {
+      "id": "coffee_009",
+      "name": "Rwanda Bourbon Honey",
+      "origin": "Rwanda",
+      "variety": "Bourbon",
+      "processing": "Honey",
+      "roast_level": "Light",
+      "taste_profile": {
+        "acidity": 4.0,
+        "body": 3.0,
+        "sweetness": 3.6,
+        "bitterness": 1.4
+      },
+      "flavor_profile": {
+        "categories": [
+          "Fruity",
+          "Floral",
+          "Sweet"
+        ],
+        "descriptors": [
+          {
+            "category": "Fruity",
+            "subCategory": "Berry",
+            "descriptor": "Raspberry"
+          },
+          {
+            "category": "Floral",
+            "subCategory": "Dried Flower",
+            "descriptor": "Hibiscus"
+          },
+          {
+            "category": "Sweet",
+            "subCategory": "Caramelized Sugar",
+            "descriptor": "Brown Sugar"
+          },
+          {
+            "category": "Fruity",
+            "subCategory": "Citrus Fruit",
+            "descriptor": "Orange"
+          },
+          {
+            "category": "Floral",
+            "subCategory": "White Flower",
+            "descriptor": "Gardenia"
+          }
+        ]
+      },
+      "description": "라즈베리와 히비스커스의 싱그러운 향미가 풍부한 르완다 부르봉 허니 프로세스 커피.",
+      "image_url": "https://dummy.coflanet.com/images/coffee_009.jpg",
+      "weight_options": [
+        {
+          "weight": "100g",
+          "price": 13500
+        },
+        {
+          "weight": "200g",
+          "price": 25000
+        },
+        {
+          "weight": "500g",
+          "price": 55000
+        }
+      ],
+      "shipping": {
+        "method": "택배",
+        "fee": 3000,
+        "free_shipping_over": 30000
+      },
+      "is_available": true
+    },
+    {
+      "id": "coffee_010",
+      "name": "Ethiopia Anaerobic Natural",
+      "origin": "Ethiopia",
+      "variety": "Heirloom",
+      "processing": "Anaerobic Natural",
+      "roast_level": "Light",
+      "taste_profile": {
+        "acidity": 4.5,
+        "body": 2.9,
+        "sweetness": 3.8,
+        "bitterness": 1.2
+      },
+      "flavor_profile": {
+        "categories": [
+          "Fruity",
+          "Fermented",
+          "Roasted"
+        ],
+        "descriptors": [
+          {
+            "category": "Fruity",
+            "subCategory": "Berry",
+            "descriptor": "Blueberry"
+          },
+          {
+            "category": "Fruity",
+            "subCategory": "Tropical Fruit",
+            "descriptor": "Pineapple"
+          },
+          {
+            "category": "Fermented",
+            "subCategory": "Winey",
+            "descriptor": "Red Wine"
+          },
+          {
+            "category": "Fermented",
+            "subCategory": "Other",
+            "descriptor": "Rum"
+          },
+          {
+            "category": "Roasted",
+            "subCategory": "Brown Roast",
+            "descriptor": "Caramelized"
+          }
+        ]
+      },
+      "description": "독특한 무산소 내추럴 공법으로 만든 에티오피아. 블루베리와 와인 향미, 럼의 뉘앙스가 인상적입니다.",
+      "image_url": "https://dummy.coflanet.com/images/coffee_010.jpg",
+      "weight_options": [
+        {
+          "weight": "100g",
+          "price": 15500
+        },
+        {
+          "weight": "200g",
+          "price": 29500
+        },
+        {
+          "weight": "500g",
+          "price": 65000
+        }
+      ],
+      "shipping": {
+        "method": "택배",
+        "fee": 3000,
+        "free_shipping_over": 30000
+      },
+      "is_available": true
+    }
+  ],
+  "match_results": {
+    "user_001": [
+      {
+        "coffee_id": "coffee_001",
+        "coffee_name": "Colombia Pink Bourbon",
+        "taste_match_ratio": 1.0,
+        "flavor_match_ratio": 1.0,
+        "total_score": 1.0
+      },
+      {
+        "coffee_id": "coffee_004",
+        "coffee_name": "Kenya AA",
+        "taste_match_ratio": 1.0,
+        "flavor_match_ratio": 0.67,
+        "total_score": 0.8667
+      },
+      {
+        "coffee_id": "coffee_006",
+        "coffee_name": "Ethiopia Gesha Natural",
+        "taste_match_ratio": 1.0,
+        "flavor_match_ratio": 0.67,
+        "total_score": 0.8667
+      },
+      {
+        "coffee_id": "coffee_009",
+        "coffee_name": "Rwanda Bourbon Honey",
+        "taste_match_ratio": 1.0,
+        "flavor_match_ratio": 0.67,
+        "total_score": 0.8667
+      },
+      {
+        "coffee_id": "coffee_010",
+        "coffee_name": "Ethiopia Anaerobic Natural",
+        "taste_match_ratio": 1.0,
+        "flavor_match_ratio": 0.67,
+        "total_score": 0.8667
+      },
+      {
+        "coffee_id": "coffee_002",
+        "coffee_name": "Ethiopia Yirgacheffe",
+        "taste_match_ratio": 0.75,
+        "flavor_match_ratio": 1.0,
+        "total_score": 0.85
+      },
+      {
+        "coffee_id": "coffee_005",
+        "coffee_name": "Guatemala Antigua",
+        "taste_match_ratio": 1.0,
+        "flavor_match_ratio": 0.33,
+        "total_score": 0.7333
+      },
+      {
+        "coffee_id": "coffee_008",
+        "coffee_name": "Costa Rica Honey",
+        "taste_match_ratio": 0.75,
+        "flavor_match_ratio": 0.67,
+        "total_score": 0.7167
+      },
+      {
+        "coffee_id": "coffee_003",
+        "coffee_name": "Brazil Natural",
+        "taste_match_ratio": 0.5,
+        "flavor_match_ratio": 0.33,
+        "total_score": 0.4333
+      },
+      {
+        "coffee_id": "coffee_007",
+        "coffee_name": "Sumatra Mandheling",
+        "taste_match_ratio": 0.25,
+        "flavor_match_ratio": 0.33,
+        "total_score": 0.2833
+      }
+    ],
+    "user_002": [
+      {
+        "coffee_id": "coffee_003",
+        "coffee_name": "Brazil Natural",
+        "taste_match_ratio": 1.0,
+        "flavor_match_ratio": 1.0,
+        "total_score": 1.0
+      },
+      {
+        "coffee_id": "coffee_007",
+        "coffee_name": "Sumatra Mandheling",
+        "taste_match_ratio": 0.75,
+        "flavor_match_ratio": 1.0,
+        "total_score": 0.85
+      },
+      {
+        "coffee_id": "coffee_005",
+        "coffee_name": "Guatemala Antigua",
+        "taste_match_ratio": 0.75,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.65
+      },
+      {
+        "coffee_id": "coffee_001",
+        "coffee_name": "Colombia Pink Bourbon",
+        "taste_match_ratio": 0.25,
+        "flavor_match_ratio": 1.0,
+        "total_score": 0.55
+      },
+      {
+        "coffee_id": "coffee_008",
+        "coffee_name": "Costa Rica Honey",
+        "taste_match_ratio": 0.75,
+        "flavor_match_ratio": 0.0,
+        "total_score": 0.45
+      },
+      {
+        "coffee_id": "coffee_009",
+        "coffee_name": "Rwanda Bourbon Honey",
+        "taste_match_ratio": 0.75,
+        "flavor_match_ratio": 0.0,
+        "total_score": 0.45
+      },
+      {
+        "coffee_id": "coffee_004",
+        "coffee_name": "Kenya AA",
+        "taste_match_ratio": 0.25,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.35
+      },
+      {
+        "coffee_id": "coffee_010",
+        "coffee_name": "Ethiopia Anaerobic Natural",
+        "taste_match_ratio": 0.25,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.35
+      },
+      {
+        "coffee_id": "coffee_002",
+        "coffee_name": "Ethiopia Yirgacheffe",
+        "taste_match_ratio": 0.0,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.2
+      },
+      {
+        "coffee_id": "coffee_006",
+        "coffee_name": "Ethiopia Gesha Natural",
+        "taste_match_ratio": 0.25,
+        "flavor_match_ratio": 0.0,
+        "total_score": 0.15
+      }
+    ],
+    "user_003": [
+      {
+        "coffee_id": "coffee_003",
+        "coffee_name": "Brazil Natural",
+        "taste_match_ratio": 1.0,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.8
+      },
+      {
+        "coffee_id": "coffee_007",
+        "coffee_name": "Sumatra Mandheling",
+        "taste_match_ratio": 1.0,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.8
+      },
+      {
+        "coffee_id": "coffee_001",
+        "coffee_name": "Colombia Pink Bourbon",
+        "taste_match_ratio": 0.25,
+        "flavor_match_ratio": 1.0,
+        "total_score": 0.55
+      },
+      {
+        "coffee_id": "coffee_004",
+        "coffee_name": "Kenya AA",
+        "taste_match_ratio": 0.5,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.5
+      },
+      {
+        "coffee_id": "coffee_005",
+        "coffee_name": "Guatemala Antigua",
+        "taste_match_ratio": 0.5,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.5
+      },
+      {
+        "coffee_id": "coffee_009",
+        "coffee_name": "Rwanda Bourbon Honey",
+        "taste_match_ratio": 0.5,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.5
+      },
+      {
+        "coffee_id": "coffee_002",
+        "coffee_name": "Ethiopia Yirgacheffe",
+        "taste_match_ratio": 0.25,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.35
+      },
+      {
+        "coffee_id": "coffee_006",
+        "coffee_name": "Ethiopia Gesha Natural",
+        "taste_match_ratio": 0.25,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.35
+      },
+      {
+        "coffee_id": "coffee_008",
+        "coffee_name": "Costa Rica Honey",
+        "taste_match_ratio": 0.25,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.35
+      },
+      {
+        "coffee_id": "coffee_010",
+        "coffee_name": "Ethiopia Anaerobic Natural",
+        "taste_match_ratio": 0.25,
+        "flavor_match_ratio": 0.5,
+        "total_score": 0.35
+      }
+    ]
+  }
+}
